@@ -1,0 +1,5 @@
+The Discover tool is a powerful search and retrieval system built on AWS services like AWS Kendra, AWS Bedrock Claude Sonnet 3.5 V2, AWS API Gateway, and AWS Lambda. It streamlines the process of finding relevant information by intelligently refining user queries and searching across multiple data sources.
+
+The workflow starts when a user submits a query, which first goes through a pre-search phase. Here, intent recognition is handled via API Gateway and AWS Lambda, allowing the system to identify key qualifiers and provide user feedback for better query refinement. Next, the AWS Bedrock Claude Sonnet 3.5 V2 model rewrites and optimizes the query before executing it across primary and secondary indexes in parallel.
+
+Once the results are retrieved, they go through a post-search enhancement phase, which includes query suggestions, keyword filtering, similarity scoring, and document summarization to improve relevance and usability. The final output—an ordered set of documents, key insights, and metadata—is formatted into a structured JSON response and returned to the user, ensuring fast, accurate, and context-aware search results.

@@ -1,0 +1,12 @@
+node_modules/
+.cache/
+dist/
+build/
+logs/
+*.log
+.env
+<<<<<<< HEAD
+.DS_Store
+=======
+.DS_Store 
+>>>>>>> report-view

@@ -1,0 +1,5 @@
+The Report tool is designed to streamline data retrieval and visualization by combining query refinement, automated response suggestions, and dynamic graph generation. When a user submits a query, the system stores it in chat memory to maintain conversation context. The query is then processed by a fine-tuning agent, which refines it for better accuracy.
+
+To enhance usability, the system also provides pre-stored SQL query suggestions, allowing users to select a relevant response instead of manually crafting a query. Once finalized, the query retrieves data from the knowledge source, which is then processed by the graph generator agent to create visual representations.
+
+The tool offers flexibility in generating both single and multiple graphs, providing in-depth insights tailored to user needs. It also supports visualization for structured and unstructured data, making it a versatile solution for a wide range of analytical use cases.

@@ -1,0 +1,6 @@
+he Query Processing System is designed to intelligently analyze and route user queries to ensure accurate, business-aligned insights. When a query is submitted, the Query Analyzer first validates it, ensuring it aligns with business logic and intent. If the query is valid, the Orchestration Agent determines its nature and selects the appropriate processing agents—Analyzer, Discovery, or Extractor—to handle specific tasks.
+
+The Analyzer Agent refines the query, breaking it into sub-queries for better precision.
+The Discovery Agent conducts web searches, validates results, and generates summaries.
+The Extractor Agent retrieves, verifies, and processes structured and unstructured data.
+Each agent works independently yet remains connected to a centralized Knowledge Base, ensuring all retrieved data is accurate and up-to-date. Once the necessary information is gathered, the Orchestration Agent forwards the results to the Report Generation Agent, which compiles the final insights. This dynamic and adaptive workflow allows the system to efficiently process financial data in real-time, delivering precise, actionable insights based on the user’s request.
